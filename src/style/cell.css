@@ -1,0 +1,23 @@
+.cell {
+    width: 120px;
+    height: 120px;
+    font-size: 2.2em;
+    background-color: #d2cfcf;
+}
+
+.cell div {
+    margin-top: 20px;
+}
+
+.cell.active {
+    cursor: pointer;
+}
+
+.cell.disabled {
+    background-color: rgb(255, 0, 0);
+}
+
+.cell.winner {
+    background-color: rgb(9, 197, 40);
+    color: rgb(0, 0, 0);
+}
